@@ -1,5 +1,3 @@
-# #{Build.BuildNumber}#
-
 ## Default Csv Format ##
 
 *Metadata.csv* contains the original fields from metadata.json file in csv format.
@@ -14,7 +12,7 @@ File *metadata-custom.csv* contains following fields:
 * **Name** - the file name of current version, 200 chars.
 * **DocumentExtension** - string, file extension including preceding ".".
 * **DocumentId** - integer, unique identifier for a document (all versions of this document would have the same document id), link to source system.
-* **Version** - integer, starting at 1, sequential.
+* **VersionNumber** - integer, starting at 1, sequential.
 * **Client** - string, unique identifier for a client, 50 chars.
 * **DocumentDate** - date for this document, see *Date Format* section.
 * **Comments** - string, 100 chars, optional.
