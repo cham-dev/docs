@@ -27,6 +27,9 @@ File *metadata-custom.csv* contains following fields:
 * **ScheduleName** - string, filing/category within the assignment, 50 chars, optional.
 * **ScheduleStartDate** - date, optional, see *Date Format* section.
 * **ScheduleEndDate** - date, optional, see *Date Format* section.
+* **AuthorFirstName** - string, 50 chars, optional.
+* **AuthorSurname** - string, 60 chars, optional.
+* **AuthorUniqueId** - string, unique username of the author in source system, 80 chars, optional.
 
 ### Rules ###
 
